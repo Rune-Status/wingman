@@ -14,6 +14,10 @@ public abstract class GameAPI {
         getterInstance.decodeNpcUpdate(isLargeScene);
     }
 
+    public static void drawGame(int x, int y, int width, int height) {
+        getterInstance.drawGame(x, y, width, height);
+    }
+
     public static ItemDefinition getItemDefinition(int itemId) {
         return getterInstance.getItemDefinition(itemId);
     }

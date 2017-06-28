@@ -8,6 +8,8 @@ public interface Static {
 
     void decodeNpcUpdate(boolean isLargeScene);
 
+    void drawGame(int x, int y, int width, int height);
+
     ItemDefinition getItemDefinition(int itemId);
 
     NPCDefinition getNpcDefinition(int npcId);
